@@ -1,8 +1,8 @@
 //Min and Max values for analog input and output
-int minIn = 0
-int maxIn = 1023
-int minOut = 0
-int maxOut = 255
+int minIn = 0;
+int maxIn = 1023;
+int minOut = 0;
+int maxOut = 255;
 
 // The value that the red input reads
 int RedInValue = 0;
@@ -35,7 +35,7 @@ int MaxNoise = 20;
 bool CommonPin = false;
 void setup() {
   // If commonPin is true the min and max from output swap
-  if (commonPin == true){
+  if (CommonPin == true){
     int SwapVar = minOut;
     minOut = maxOut;
     maxOut = SwapVar;
