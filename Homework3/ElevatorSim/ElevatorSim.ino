@@ -88,7 +88,7 @@ void loop() {
   }
 
   //if half of the time passed the LED will close and after another half the next one will open
-  if (closingState == true && (millis() - closingPeriod) > closingTime/2){
+  if (closingState == true && (millis() - closingPeriod) > closingTime/2 && nextFloor != -1){
       currentLedState = false;
       
     if ((millis() - closingPeriod) > closingTime){
