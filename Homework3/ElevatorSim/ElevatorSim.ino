@@ -1,9 +1,11 @@
 // Here we declare the vector with the pins attached to each button
-int buttonPinArray[3] = {8, 9, 10};
+const int buttonPinArray[3] = {8, 9, 10};
 // Here we declare the vector with the pins attached to the LED from each floor
-int ledPinArray[3] = {5, 6, 7};
+const int ledPinArray[3] = {5, 6, 7};
 // H
-int workingLedPin = 12;
+const int buzzerPin = 13;
+int buzzerState = -1;
+const int workingLedPin = 12;
 bool workingLedState = 0;
 unsigned long workingLedPeriod = 0;
 unsigned long workingLedTime = 500;
@@ -27,7 +29,8 @@ void setup() {
     pinMode(buttonPinArray[i], INPUT_PULLUP);
     pinMode(ledPinArray[i], OUTPUT);
   }
-  pinMode(workingLedPin,OUTPUT);
+  pinMode(workingLedPin, OUTPUT);
+  pinMode(buzzerPin, OUTPUT);
   
   Serial.begin(9600);
 }
@@ -68,30 +71,36 @@ void loop() {
       currentLedState = false;
       
     if ((millis() - closingPeriod) > closingTime){
+      Serial.println("aici da");
       if (currentFloor > nextFloor){
         currentFloor -= 1;
-        workingLedState = 0;
       }
-      else
-        if (currentFloor < nextFloor){
+      if (currentFloor < nextFloor){
           currentFloor += 1;
-          workingLedState = 0;
-        }
-      else
-        if (currentFloor == nextFloor){
+      }
+      if (currentFloor == nextFloor){
           //nextFloor = -1;
-          workingLedState = 1;
-          workingLedPeriod = millis();
-        }
-
+        buzzerState = 1;
+        Serial.println("a ajuns");
+        workingLedState = 1;
+        workingLedPeriod = millis();
+      }
       closingState = false;
       closingPeriod = 0;
       currentLedState = true;
     }
   }
 
+    if (buzzerState == 1){
+      tone(buzzerPin, 2345, 500);
+      buzzerState = -1;
+      //noTone(buzzerPin);
+    }
+
   if (currentFloor != -1){
      if (currentFloor != nextFloor){
+       // tone(buzzerPin, 100);
+      tone(buzzerPin, 250);
       if (millis() - workingLedPeriod > workingLedTime){
         workingLedState = !workingLedState;
         workingLedPeriod = millis();
@@ -100,12 +109,15 @@ void loop() {
     }    
     if (currentFloor == nextFloor){
       digitalWrite(workingLedPin, HIGH);
+      //noTone(buzzerPin);
     }
     
   }
   else
     digitalWrite(workingLedPin, LOW);
-  Serial.println(currentFloor);
-  digitalWrite(workingLedPin, workingLedState);
+
+  //Serial.println(currentFloor);
+  //Serial.println(nextFloor);
+  //digitalWrite(workingLedPin, workingLedState);
   digitalWrite(ledPinArray[currentFloor],currentLedState);
 }
