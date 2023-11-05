@@ -39,3 +39,17 @@ This  assignment  involves  simulating  a  3-floor  elevator  control  system  u
 ![Reference photo 3](Homework3/ReferencePhotoHomework3_(2).jpeg)
 
 [__Link to the video__](https://drive.google.com/file/d/1qiQeKAuW0VKCbqdy7o0GvTWo43vfWPNA/view?usp=sharing)
+
+## [Homework 4](https://github.com/GeorgePopescu318/IntroductionToRobotics/tree/main/Homework4)
+
+Description:
+
+The following code allows you to move through a 7-segment Display using a joystick, the current LED segment will blink so you know where you are,
+  additionally by short pressing the joystick/an external button the current segment will turn HIGH after you move your current segment from it, and you can turn them LOW if you
+  short press again. By long pressing the joystick/button all the HIGH segments will turn LOW and the current segment will return to dp (decimal point).
+ 
+<img src="Homework4/ReferencePhotoHomework4_(1).jpeg" width="450" title="Reference photo 1" > <br> <br>
+<img src="Homework4/ReferencePhotoHomework4_(2).jpeg" width="450" title="Reference photo 1" > <br> <br>
+<img src="Homework4/ReferencePhotoHomework4_(3).jpeg" width="450" title="Reference photo 1" > <br>
+
+[__Link to the video__](https://drive.google.com/file/d/1swsIln1Z-k-dDYYwCO2j6CUZ5jYW_hVP/view?usp=drive_link)
