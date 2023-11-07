@@ -1,4 +1,7 @@
-# Introduction to Robotics (2023 - 2024)
+# Introduction to Robotics (2023 - 2024) 
+![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)
+![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
 Dear reader,
 
@@ -17,12 +20,11 @@ __*Bad coding style + No safety glasses in lab = Bad grade*__
 Task:
 
 Use a separate potentiometer for controlling each color of the RGB LED:Red,Green, andBlue.  This control must leveragedigital electronics.  Specifically,you  need  to  read  the  potentiometer`s  value  with  Arduino  and  then  write  amapped value to the LED pins.
- 
-![Reference photo 1](Homework2/ReferencePhotoHomework2_(1).jpeg)
 
-![Reference photo 2](Homework2/ReferencePhotoHomework2_(3).jpeg)
-
-![Reference photo 3](Homework2/ReferencePhotoHomework2_(2).jpeg)
+<img src="Homework2/ReferencePhotoHomework2_(1).jpeg" width="450" title="Reference photo 1" > <br> <br>
+<img src="Homework2/ReferencePhotoHomework2_(2).jpeg" width="450" title="Reference photo 2" > <br> <br>
+<img src="Homework2/ReferencePhotoHomework2_(3).jpeg" width="450" title="Reference photo 3" > <br>
+<img src="Homework2/SchematicHomework2.jpg" width="450" title="Schematic" > <br>
 
 [__Link to the video__](https://drive.google.com/file/d/1RaZQQeRdR0XG1Q5-4MOC7L5BarMdzbdl/view?usp=sharing)
 
@@ -32,11 +34,9 @@ Task:
 
 This  assignment  involves  simulating  a  3-floor  elevator  control  system  usingLEDs, buttons, and a buzzer with Arduino. By the end of this task, you will gainexperience in using button state change, implementing debouncing techniques,and coordinating multiple components to represent real-world scenarios.
  
-![Reference photo 1](Homework3/ReferencePhotoHomework3_(1).jpeg)
-
-![Reference photo 2](Homework3/ReferencePhotoHomework3_(3).jpeg)
-
-![Reference photo 3](Homework3/ReferencePhotoHomework3_(2).jpeg)
+<img src="Homework3/ReferencePhotoHomework3_(1).jpeg" width="450" title="Reference photo 1" > <br> <br>
+<img src="Homework3/ReferencePhotoHomework3_(2).jpeg" width="450" title="Reference photo 2" > <br> <br>
+<img src="Homework3/ReferencePhotoHomework3_(3).jpeg" width="450" title="Reference photo 3" > <br>
 
 [__Link to the video__](https://drive.google.com/file/d/1qiQeKAuW0VKCbqdy7o0GvTWo43vfWPNA/view?usp=sharing)
 
@@ -49,7 +49,7 @@ The following code allows you to move through a 7-segment Display using a joysti
   short press again. By long pressing the joystick/button all the HIGH segments will turn LOW and the current segment will return to dp (decimal point).
  
 <img src="Homework4/ReferencePhotoHomework4_(1).jpeg" width="450" title="Reference photo 1" > <br> <br>
-<img src="Homework4/ReferencePhotoHomework4_(2).jpeg" width="450" title="Reference photo 1" > <br> <br>
-<img src="Homework4/ReferencePhotoHomework4_(3).jpeg" width="450" title="Reference photo 1" > <br>
+<img src="Homework4/ReferencePhotoHomework4_(2).jpeg" width="450" title="Reference photo 2" > <br> <br>
+<img src="Homework4/ReferencePhotoHomework4_(3).jpeg" width="450" title="Reference photo 3" > <br>
 
 [__Link to the video__](https://drive.google.com/file/d/1swsIln1Z-k-dDYYwCO2j6CUZ5jYW_hVP/view?usp=drive_link)
