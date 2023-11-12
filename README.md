@@ -60,7 +60,7 @@ Description:
 
 Meet the Arduino Uno Stopwatch – a high-tech timekeeper blending an Arduino Uno microcontroller, a space-efficient shift register, four vibrant 7-segment displays, and three user-friendly buttons. This stopwatch excels in accuracy and aesthetics, with streamlined design and precise time tracking of minutes, seconds, and tenths of a second. Perfect for athletes, professionals, or tech enthusiasts seeking a superior timekeeping experience.
  
-<img src="Homework4/ReferencePhotoHomework5_(1).jpeg" width="450" title="Reference photo 1" > <br> <br>
-<img src="Homework4/ReferencePhotoHomework5_(2).jpeg" width="450" title="Reference photo 2" > <br> <br>
+<img src="Homework5/ReferencePhotoHomework5_(1).jpeg" width="450" title="Reference photo 1" > <br> <br>
+<img src="Homework5/ReferencePhotoHomework5_(2).jpeg" width="450" title="Reference photo 2" > <br> <br>
 
 [__Link to the video__](https://drive.google.com/file/d/1swsIln1Z-k-dDYYwCO2j6CUZ5jYW_hVP/view?usp=drive_link)
