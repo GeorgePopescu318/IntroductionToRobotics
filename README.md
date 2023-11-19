@@ -64,3 +64,15 @@ Meet the Arduino Uno Stopwatch – a high-tech timekeeper blending an Arduino Un
 <img src="Homework5/ReferencePhotoHomework5_(2).jpeg" width="450" title="Reference photo 2" > <br> <br>
 
 [__Link to the video__](https://drive.google.com/file/d/1vAbQF2BplNPJfFH-AOYrdIUJVO01vIcd/view?usp=drive_link)
+
+
+## [Homework 6](https://github.com/GeorgePopescu318/IntroductionToRobotics/tree/main/Homework6)
+
+Description:
+
+In developing the "Smart Environment Monitor and Logger" with Arduino, I structured the code to efficiently handle sensor readings, EEPROM storage, and RGB LED control. The Serial menu, aligned with specifications, facilitated user interaction for sensor settings, data reset, system status checks, and RGB LED control. To mitigate EEPROM wear, I employed Update() or Put() functions instead of EEPROM.write. 
+ 
+<img src="Homework6/ReferencePhotoHomework6_(1).jpeg" width="450" title="Reference photo 1" > <br> <br>
+<img src="Homework6/ReferencePhotoHomework6_(2).jpeg" width="450" title="Reference photo 2" > <br> <br>
+
+[__Link to the video__](https://drive.google.com/file/d/1o2chdlD8HQZXAn5vUHOphRPjXAT_K0IV/view?usp=sharing)
