@@ -1,4 +1,5 @@
 #include <EEPROM.h>
+// readProducedValue function from https://forum.arduino.cc/t/serial-input-basics-updated/382007/3
 //EEPROM
 //byte 0 - Sensor sampling
 //byte 1 - 2 - Ultra sonic threshold
