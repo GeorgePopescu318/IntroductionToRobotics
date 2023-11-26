@@ -3,7 +3,7 @@
 //byte 0 - Sensor sampling
 //byte 1 - 2 - Ultra sonic threshold
 //byte 3 - 4 - LDR threshold
-//byte 5 - 24 - Ultra logger 5 7 9 11 13 15 17 19 21 23
+//byte 5 - 24 - Ultra logger
 //byte 25 - 44 - LDR logger
 //byte 45 - order of loging
 const byte maxMenuOptions = 4;
@@ -60,6 +60,8 @@ void setup() {
   pinMode(redPin, OUTPUT);
   pinMode(greenPin, OUTPUT);
   pinMode(bluePin, OUTPUT);
+  pinMode(trigPin, OUTPUT);
+  pinMode(echoPin, INPUT);
   mainMenu();
 }
 
