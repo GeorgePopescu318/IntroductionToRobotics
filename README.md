@@ -83,7 +83,7 @@ Description:
 
 Created a mini tank war game on my Arduino using an 8x8 LED matrix. The player controls a tank with a joystick, moving it across a dynamic terrain and shooting obstacles. The terrain is randomized for replayability, and LED indicators enhance the gaming experience. Simple yet immersive, it's a compact gaming adventure on a small scale.
  
-<img src="Homework6/ReferencePhotoHomework7_(1).jpeg" width="450" title="Reference photo 1" > <br> <br>
-<img src="Homework6/ReferencePhotoHomework7_(2).jpeg" width="450" title="Reference photo 2" > <br> <br>
+<img src="Homework7/ReferencePhotoHomework7_(1).jpeg" width="450" title="Reference photo 1" > <br> <br>
+<img src="Homework7/ReferencePhotoHomework7_(2).jpeg" width="450" title="Reference photo 2" > <br> <br>
 
 [__Link to the video__](https://drive.google.com/file/d/1xtT2QWILXOVaFYHr8_tkK6jGKmHrjn5p/view?usp=sharing)
