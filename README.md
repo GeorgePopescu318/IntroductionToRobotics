@@ -87,3 +87,14 @@ Created a mini tank war game on my Arduino using an 8x8 LED matrix. The player c
 <img src="Homework7/ReferencePhotoHomework7_(2).jpeg" width="450" title="Reference photo 2" > <br> <br>
 
 [__Link to the video__](https://drive.google.com/file/d/1xtT2QWILXOVaFYHr8_tkK6jGKmHrjn5p/view?usp=sharing)
+
+## [Homework 8](https://github.com/GeorgePopescu318/IntroductionToRobotics/tree/main/Homework8)
+
+Description:
+
+I added a lcd sreen to my matrix game, using it you can access the Menu of the game, you can change the lcd's and matrix's Intensity using the menu, find more about me and start the game.
+ 
+<img src="Homework7/ReferencePhotoHomework8_(1).jpeg" width="450" title="Reference photo 1" > <br> <br>
+<img src="Homework7/ReferencePhotoHomework8_(2).jpeg" width="450" title="Reference photo 2" > <br> <br>
+
+[__Link to the video__](https://drive.google.com/file/d/1-EQnLFbO5UNWO2QNeBT8jldfxw_coyDt/view?usp=sharing)
