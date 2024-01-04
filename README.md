@@ -21,7 +21,6 @@ Task:
 
 Use a separate potentiometer for controlling each color of the RGB LED:Red,Green, andBlue.  This control must leveragedigital electronics.  Specifically,you  need  to  read  the  potentiometer`s  value  with  Arduino  and  then  write  amapped value to the LED pins.
 
-<img src="Homework2/ReferencePhotoHomework2_(1).jpeg" width="450" title="Reference photo 1" > <br> <br>
 <img src="Homework2/ReferencePhotoHomework2_(2).jpeg" width="450" title="Reference photo 2" > <br> <br>
 <img src="Homework2/ReferencePhotoHomework2_(3).jpeg" width="450" title="Reference photo 3" > <br>
 <img src="Homework2/SchematicHomework2.jpg" width="450" title="Schematic" > <br>
@@ -34,9 +33,9 @@ Task:
 
 This  assignment  involves  simulating  a  3-floor  elevator  control  system  usingLEDs, buttons, and a buzzer with Arduino. By the end of this task, you will gainexperience in using button state change, implementing debouncing techniques,and coordinating multiple components to represent real-world scenarios.
  
-<img src="Homework3/ReferencePhotoHomework3_(1).jpeg" width="450" title="Reference photo 1" > <br> <br>
-<img src="Homework3/ReferencePhotoHomework3_(2).jpeg" width="450" title="Reference photo 2" > <br> <br>
 <img src="Homework3/ReferencePhotoHomework3_(3).jpeg" width="450" title="Reference photo 3" > <br>
+<img src="Homework3/ReferencePhotoHomework3_(2).jpeg" width="450" title="Reference photo 2" > <br> <br>
+<img src="Homework3/SchematicHomework3.jpg" width="450" title="Schematic" > <br>
 
 [__Link to the video__](https://drive.google.com/file/d/1qiQeKAuW0VKCbqdy7o0GvTWo43vfWPNA/view?usp=sharing)
 
