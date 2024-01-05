@@ -49,7 +49,7 @@ The following code allows you to move through a 7-segment Display using a joysti
  
 <img src="Homework4/ReferencePhotoHomework4_(1).jpeg" width="450" title="Reference photo 1" > <br> <br>
 <img src="Homework4/ReferencePhotoHomework4_(2).jpeg" width="450" title="Reference photo 2" > <br> <br>
-<img src="Homework4/ReferencePhotoHomework4_(3).jpeg" width="450" title="Reference photo 3" > <br>
+<img src="Homework4/SchematicHomework4.jpg" width="450" title="Schematic" > <br>
 
 [__Link to the video__](https://drive.google.com/file/d/1swsIln1Z-k-dDYYwCO2j6CUZ5jYW_hVP/view?usp=drive_link)
 
