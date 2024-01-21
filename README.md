@@ -14,9 +14,11 @@ Thank you very much for reading this,
 P.S.
 
 __*Bad coding style + No safety glasses in lab = Bad grade*__
+<details closed>
+<summary> <big> Homework 2 💡 </big> </summary>
 
-## [Homework 2](https://github.com/GeorgePopescu318/IntroductionToRobotics/tree/main/Homework2)
-
+ #### [Link to Repo](https://github.com/GeorgePopescu318/IntroductionToRobotics/tree/main/Homework2)
+<br>
 Task:
 
 Use a separate potentiometer for controlling each color of the RGB LED:Red,Green, andBlue.  This control must leveragedigital electronics.  Specifically,you  need  to  read  the  potentiometer`s  value  with  Arduino  and  then  write  amapped value to the LED pins.
@@ -26,20 +28,33 @@ Use a separate potentiometer for controlling each color of the RGB LED:Red,Green
 <img src="Homework2/SchematicHomework2.jpg" width="450" title="Schematic" > <br>
 
 [__Link to the video__](https://drive.google.com/file/d/1RaZQQeRdR0XG1Q5-4MOC7L5BarMdzbdl/view?usp=sharing)
+</details>
 
-## [Homework 3](https://github.com/GeorgePopescu318/IntroductionToRobotics/tree/main/Homework3)
+<details closed>
+<summary> <big> Homework 3 🔼 </big> </summary>
+</br>
+
+#### [Link to  Repo](https://github.com/GeorgePopescu318/IntroductionToRobotics/tree/main/Homework3)
 
 Task:
 
-This  assignment  involves  simulating  a  3-floor  elevator  control  system  usingLEDs, buttons, and a buzzer with Arduino. By the end of this task, you will gainexperience in using button state change, implementing debouncing techniques,and coordinating multiple components to represent real-world scenarios.
+This  assignment  involves  simulating  a  3-floor  elevator  control  system  usingLEDs, buttons, and a buzzer with Arduino. By the end of this task, you will gain experience in using button state change, implementing debouncing techniques,and coordinating multiple components to represent real-world scenarios.
  
 <img src="Homework3/ReferencePhotoHomework3_(3).jpeg" width="450" title="Reference photo 3" > <br>
 <img src="Homework3/ReferencePhotoHomework3_(2).jpeg" width="450" title="Reference photo 2" > <br> <br>
 <img src="Homework3/SchematicHomework3.jpg" width="450" title="Schematic" > <br>
 
 [__Link to the video__](https://drive.google.com/file/d/1qiQeKAuW0VKCbqdy7o0GvTWo43vfWPNA/view?usp=sharing)
+</details>
 
-## [Homework 4](https://github.com/GeorgePopescu318/IntroductionToRobotics/tree/main/Homework4)
+
+
+
+<details closed>
+<summary> <big> Homework 4 2️⃣ </big> </summary>
+</br>
+
+#### [Link to Repo](https://github.com/GeorgePopescu318/IntroductionToRobotics/tree/main/Homework4)
 
 Description:
 
@@ -53,7 +68,13 @@ The following code allows you to move through a 7-segment Display using a joysti
 
 [__Link to the video__](https://drive.google.com/file/d/1swsIln1Z-k-dDYYwCO2j6CUZ5jYW_hVP/view?usp=drive_link)
 
-## [Homework 5](https://github.com/GeorgePopescu318/IntroductionToRobotics/tree/main/Homework5)
+</details>
+
+<details closed>
+<summary> <big> Homework 5 ⏱ </big> </summary>
+</br>
+
+#### [Link to Repo](https://github.com/GeorgePopescu318/IntroductionToRobotics/tree/main/Homework5)
 
 Description:
 
@@ -64,8 +85,14 @@ Meet the Arduino Uno Stopwatch – a high-tech timekeeper blending an Arduino Un
 
 [__Link to the video__](https://drive.google.com/file/d/1vAbQF2BplNPJfFH-AOYrdIUJVO01vIcd/view?usp=drive_link)
 
+</details>
 
-## [Homework 6](https://github.com/GeorgePopescu318/IntroductionToRobotics/tree/main/Homework6)
+
+<details closed>
+<summary> <big> Homework 6 📊 </big> </summary>
+</br>
+
+#### [Link to Repo](https://github.com/GeorgePopescu318/IntroductionToRobotics/tree/main/Homework6)
 
 Description:
 
@@ -76,7 +103,14 @@ In developing the "Smart Environment Monitor and Logger" with Arduino, I structu
 
 [__Link to the video__](https://drive.google.com/file/d/1o2chdlD8HQZXAn5vUHOphRPjXAT_K0IV/view?usp=sharing)
 
-## [Homework 7](https://github.com/GeorgePopescu318/IntroductionToRobotics/tree/main/Homework7)
+</details>
+
+
+<details closed>
+<summary> <big> Homework 7 🔫 </big> </summary>
+</br>
+
+#### [Link to Repo](https://github.com/GeorgePopescu318/IntroductionToRobotics/tree/main/Homework7)
 
 Description:
 
@@ -87,7 +121,13 @@ Created a mini tank war game on my Arduino using an 8x8 LED matrix. The player c
 
 [__Link to the video__](https://drive.google.com/file/d/1xtT2QWILXOVaFYHr8_tkK6jGKmHrjn5p/view?usp=sharing)
 
-## [Homework 8](https://github.com/GeorgePopescu318/IntroductionToRobotics/tree/main/Homework8)
+</details>
+
+<details closed>
+<summary> <big> Homework 8 📟 </big> </summary>
+</br>
+
+#### [Link to Repo](https://github.com/GeorgePopescu318/IntroductionToRobotics/tree/main/Homework8)
 
 Description:
 
@@ -97,3 +137,4 @@ I added a lcd sreen to my matrix game, using it you can access the Menu of the g
 <img src="Homework8/ReferencePhotoHomework8_(2).jpeg" width="450" title="Reference photo 2" > <br> <br>
 
 [__Link to the video__](https://drive.google.com/file/d/1-EQnLFbO5UNWO2QNeBT8jldfxw_coyDt/view?usp=sharing)
+</details>
